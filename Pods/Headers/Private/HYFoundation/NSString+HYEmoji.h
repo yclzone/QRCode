@@ -1,0 +1,1 @@
+../../../HYFoundation/HYFoundation/Classes/NSString+HYEmoji.h

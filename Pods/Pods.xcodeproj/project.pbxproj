@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001F16FD2A1CAAE8E6E19AB2F938F258 /* UIAlertView+HYBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B3C082371E4A9E2C92D90C51B3CFEB /* UIAlertView+HYBlocks.m */; };
+		006490AE04E6131F331A41C9CC7B67D3 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A888DB8FE30721162E0973C4DD22A46 /* UIView+Toast.m */; };
+		0721CCC3DA83245F848E9A219A04C701 /* NSAttributedString+HYItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 72F506D540F91CFDF9879B4737E70FA7 /* NSAttributedString+HYItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		075DD7EB120268E469A0C91B845F2091 /* UIView+HYStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 2568B3E6EDA8013E7567B94D7581CED7 /* UIView+HYStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12A7879473C634B08F6C55EBF7834BA3 /* UITextView+Placeholder.h in Headers */ = {isa = PBXBuildFile; fileRef = AD9F0A2884D080AA9F1961762EE0AB20 /* UITextView+Placeholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		146C95B11BB0411E87A7456B18582B1B /* UITextField+HYLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 175E4A8DA20BA0198B12001EF6DAAFA1 /* UITextField+HYLeftView.m */; };
+		14F97C747C44772E0FCE2C781D41B920 /* HYFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DA4803E0D4DDD026A4E5FB64A83AC2F /* HYFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15E73E7A824F88BBBFA68E7E9815EB53 /* UIView+HYStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 467B735B7C22A48F06159ABB9ADDE564 /* UIView+HYStyle.m */; };
+		1A443BD6FC3897004F7CD38D5B674856 /* NSObject+HYJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 837887D59A5CBEB5B2D56A4060518F3E /* NSObject+HYJSON.m */; };
+		1F061FFC9012DC1C8415297A9A04CBD1 /* UIViewController+HYTextFieldEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0CCC979D110C91D467BF697078CC03 /* UIViewController+HYTextFieldEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25A5A49E97C1E44E6CF3C7A5EE0A5B34 /* UIView+HYFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 817940D12D3A42949BE249EFF57B4AC0 /* UIView+HYFrame.m */; };
+		2A902851052F9E9C832E065D0259828C /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = E2620EBDF75B3FAD25942EBB44B072DE /* UITextView+Placeholder.m */; };
+		2C669C3974F7535DBB737A4781ECC476 /* NSDictionary+HYURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9750811B5F77540CCC20BC89BB0D84 /* NSDictionary+HYURL.m */; };
+		2FB1FB933A3AB791DF04A17882C73E8B /* Pods-QRCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FA2457B5E2E5F6ADD2996025B0908A /* Pods-QRCode-dummy.m */; };
+		2FB97A331F245650D319365F632F7052 /* UIView+HYFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B654305E33862040CFBDF6E29412AC8 /* UIView+HYFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FE977CC2277D5951A82C2D97B7032BA /* NSObject+HYPropertyKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = CD548F5B3C078F64C1CADF6B101A05CF /* NSObject+HYPropertyKeys.m */; };
+		304E7D05B8946ADD2E6D91066BBFC252 /* HYUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D567C2CAED55309D9F4E52CC3E2D495 /* HYUIKit-dummy.m */; };
+		312A5783CD7A45AC8D3DB19CB95C9C22 /* HYUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ACBE290926B561E70461DEEC62A2DE3 /* HYUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31F46A1A09CC8EA6A45DA812A756975D /* UIColor+HYRGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 12177EA3B0310150B711A6A8DA786BE7 /* UIColor+HYRGB.m */; };
+		33298E71953BAFE8B7CAD1BB9C56D796 /* UITableView+HYCellRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C341F24725967680F334693DCE8CC0 /* UITableView+HYCellRegister.m */; };
+		3E2C565B4899F39C4743D9CF95096565 /* NSString+HYExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A8C67ED170188207D79AD1562EC3652 /* NSString+HYExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45433780834F2B3D8819A8B303FAA52C /* NSArray+HYNumberString.m in Sources */ = {isa = PBXBuildFile; fileRef = 18678424D7D782C9626C06C01DA20132 /* NSArray+HYNumberString.m */; };
+		49FFC1EEABC3B4B38AFAD6A986C7D712 /* NSDictionary+HYURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5CE7EBCF51B8A1E82CD83C58A0C49A /* NSDictionary+HYURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AF7BD77A4E8BE8F76BB3A24CCC34773 /* UIImage+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FA0DFE6DF11CC1E19EB59940FC0EBE /* UIImage+HYCategory.m */; };
+		50E84C5E86A7DD353E9567149951B212 /* UINavigationBar+HY.h in Headers */ = {isa = PBXBuildFile; fileRef = EE3176BBE2CA31368C88A278EEC98E5A /* UINavigationBar+HY.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55564F906B3ED4B76028EE710B5E4EEB /* UIBarButtonItem+Badge.h in Headers */ = {isa = PBXBuildFile; fileRef = D8E6ABD555784730A7575552B72D2024 /* UIBarButtonItem+Badge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AA9E2871DE43B606D4BBF0426C8952E /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 7647CBEC9DAEBCF479F367A96BFA5174 /* UIView+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72379EE6001E8909970E9182D8046073 /* UINavigationBar+HY.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A64E6DE8B5716C81B40B40B7BB139A /* UINavigationBar+HY.m */; };
+		83BC723271E77AA14BD3C3FA877671CA /* NSObject+HYPropertyKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B721CB7B161A30FC1A3802E6755FA2 /* NSObject+HYPropertyKeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89C34FF349984C1247B9FDDA66A0B5FA /* NSString+HYExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D60AD85A9147FF54F6EE616B5E414CDC /* NSString+HYExtensions.m */; };
+		8E97481C80FDE1D75FB155F083B8A607 /* NSString+HYEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 667C7DAB0ADFA2792B4640874D33FF39 /* NSString+HYEmoji.m */; };
+		8F26633693EB390692ED2DFAF1D6D51C /* NSObject+HYJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = E98440192E148B730086407AF863D62E /* NSObject+HYJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F57E3C291D9992AE12159AE4EFFC58F /* UITableView+HYCellRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AFCB7D0F5A6E1D2D82902828E55EDBF /* UITableView+HYCellRegister.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		905D9AC84FFC23BD0A244129837EEA90 /* UIButton+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CFA866B8569C2DB80FCE6A32A3F3DF2 /* UIButton+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91E0178F80169478E286314E331EB306 /* UIAlertView+HYBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = FD946B1FF07ABA721499E515D9799A76 /* UIAlertView+HYBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94EBEFC8857AA98CE3D2DB7B43A4FFD0 /* UICollectionView+HYCellRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B52800D30914DAEC465F568BEC6394 /* UICollectionView+HYCellRegister.m */; };
+		986F3CFBEA05BB6BD1FC94C6289C257A /* NSArray+HYNumberString.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7DEFB9905D27434DD939F99A896A41 /* NSArray+HYNumberString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9935C802C69A6144A3DBEE9516DF73E0 /* UIControl+HY.h in Headers */ = {isa = PBXBuildFile; fileRef = E6AB792D995519A38BBBA706708FE346 /* UIControl+HY.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B9249B88487F7CFA67498A63414D240 /* NSAttributedString+HYItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6500810ED4C368FEE1C72A0951745932 /* NSAttributedString+HYItem.m */; };
+		9C20376B961AEB8B67D8E02803D934F7 /* UIViewController+HYTextFieldEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3EDB46F58BD46EDE2FBEFE99B61BD4 /* UIViewController+HYTextFieldEvent.m */; };
+		A0177E5D62D0D1C22A8857B9E8DE7B68 /* UITextField+HYLeftView.h in Headers */ = {isa = PBXBuildFile; fileRef = 806CFCDF5B8815B540F43E83FB8FFF5C /* UITextField+HYLeftView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A056B7F3BDF74979F8D8889D4941012B /* UIColor+HYRGB.h in Headers */ = {isa = PBXBuildFile; fileRef = 934D4E5ED1926B69A90C1FFD51A214C5 /* UIColor+HYRGB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC85E3BC5538FC62991F0D51635B1824 /* UITextField+HYBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = E23EF2872A54BAF8815719472F2A84E5 /* UITextField+HYBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1E71F079DE3063A52541EC855665533 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		BD549FB9F670EFAD946E149CF38DBBF5 /* UITextField+HYBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DB8E366EF49FBBF024EB57685B8110 /* UITextField+HYBlocks.m */; };
+		BE52EA3178B341628A4C8B29117F11DE /* NSString+HYEmoji.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F266D76C786AE842AC61007BD68F37 /* NSString+HYEmoji.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C62A3298F657E624D57FC2EB83FA819D /* UIImage+HYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = FA0E8D23FA018949B1158BBF7E61BDA2 /* UIImage+HYCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C86640D221FADBD9D0944778441E4274 /* UICollectionView+HYCellRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B541C9F2A1E11F413485ED640DAA5A7 /* UICollectionView+HYCellRegister.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFD9475BBEEFEC1BA4786C5656C7F2B8 /* UIControl+HY.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA7993B3BA94A41101176733C060405 /* UIControl+HY.m */; };
+		E65A96D0F14C713A3B53A87DD1CA1C57 /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 754CCAF4C32417FA58A3A25FCC9DBAB5 /* UIBarButtonItem+Badge.m */; };
+		E80AA5E0FC1F80A4618C41FCAD219F26 /* HYFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EABAC65353D7B298D0B05BDDBCEB42 /* HYFoundation-dummy.m */; };
+		ECB1B6E2891FF15FA6D72E41351F7349 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		FC0934B7C9242260F313825121DC67F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		FE1BD32F2A47538048F1CE28FCCAF2CF /* UIButton+HYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B5700D214B3DAFCF406AB83225BA7B /* UIButton+HYCategory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0984C38CB2099C4E4B82523DDBD87FDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25173134254327E662B00BFD96162056;
+			remoteInfo = HYFoundation;
+		};
+		E1687FF7DB2D2E710692EC94A30306B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E0B312DAFDC2627993374E1C45C3266;
+			remoteInfo = HYUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B541C9F2A1E11F413485ED640DAA5A7 /* UICollectionView+HYCellRegister.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+HYCellRegister.h"; path = "Pod/Classes/UICollectionView+HYCellRegister.h"; sourceTree = "<group>"; };
+		1133E1BA9C3A7E4530C6F11FCFA042EC /* libPods-QRCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QRCode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12177EA3B0310150B711A6A8DA786BE7 /* UIColor+HYRGB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HYRGB.m"; path = "Pod/Classes/UIColor+HYRGB.m"; sourceTree = "<group>"; };
+		175E4A8DA20BA0198B12001EF6DAAFA1 /* UITextField+HYLeftView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+HYLeftView.m"; path = "Pod/Classes/UITextField+HYLeftView.m"; sourceTree = "<group>"; };
+		18678424D7D782C9626C06C01DA20132 /* NSArray+HYNumberString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+HYNumberString.m"; path = "HYFoundation/Classes/NSArray+HYNumberString.m"; sourceTree = "<group>"; };
+		187ACEE469ABF789DC6F89FCAD97FAB3 /* Pods-QRCode-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QRCode-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A6B0F48572A857C433DA1DA9A6B2F8F /* HYUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYUIKit.xcconfig; sourceTree = "<group>"; };
+		1CA7993B3BA94A41101176733C060405 /* UIControl+HY.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+HY.m"; path = "Pod/Classes/UIControl+HY.m"; sourceTree = "<group>"; };
+		2200DE16EAC6B8616CC529DDF12A8516 /* Pods-QRCode-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QRCode-acknowledgements.plist"; sourceTree = "<group>"; };
+		2568B3E6EDA8013E7567B94D7581CED7 /* UIView+HYStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+HYStyle.h"; path = "Pod/Classes/UIView+HYStyle.h"; sourceTree = "<group>"; };
+		27C71F038FE45B005023415545D0ED94 /* libHYUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHYUIKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F266D76C786AE842AC61007BD68F37 /* NSString+HYEmoji.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HYEmoji.h"; path = "HYFoundation/Classes/NSString+HYEmoji.h"; sourceTree = "<group>"; };
+		2A3EDB46F58BD46EDE2FBEFE99B61BD4 /* UIViewController+HYTextFieldEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+HYTextFieldEvent.m"; path = "Pod/Classes/UIViewController+HYTextFieldEvent.m"; sourceTree = "<group>"; };
+		3A8C67ED170188207D79AD1562EC3652 /* NSString+HYExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HYExtensions.h"; path = "HYFoundation/Classes/NSString+HYExtensions.h"; sourceTree = "<group>"; };
+		3ACBE290926B561E70461DEEC62A2DE3 /* HYUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYUIKit.h; path = Pod/Classes/HYUIKit.h; sourceTree = "<group>"; };
+		3C577065F96B2B683FA67C6D7C8FD237 /* Pods-QRCode-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QRCode-resources.sh"; sourceTree = "<group>"; };
+		3CFA866B8569C2DB80FCE6A32A3F3DF2 /* UIButton+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+HYCategory.h"; path = "Pod/Classes/UIButton+HYCategory.h"; sourceTree = "<group>"; };
+		467B735B7C22A48F06159ABB9ADDE564 /* UIView+HYStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+HYStyle.m"; path = "Pod/Classes/UIView+HYStyle.m"; sourceTree = "<group>"; };
+		47B5700D214B3DAFCF406AB83225BA7B /* UIButton+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+HYCategory.m"; path = "Pod/Classes/UIButton+HYCategory.m"; sourceTree = "<group>"; };
+		4A5CE7EBCF51B8A1E82CD83C58A0C49A /* NSDictionary+HYURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+HYURL.h"; path = "HYFoundation/Classes/NSDictionary+HYURL.h"; sourceTree = "<group>"; };
+		4A888DB8FE30721162E0973C4DD22A46 /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "Pod/Classes/UIView+Toast.m"; sourceTree = "<group>"; };
+		4C0CCC979D110C91D467BF697078CC03 /* UIViewController+HYTextFieldEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+HYTextFieldEvent.h"; path = "Pod/Classes/UIViewController+HYTextFieldEvent.h"; sourceTree = "<group>"; };
+		51B721CB7B161A30FC1A3802E6755FA2 /* NSObject+HYPropertyKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+HYPropertyKeys.h"; path = "HYFoundation/Classes/NSObject+HYPropertyKeys.h"; sourceTree = "<group>"; };
+		6318FEB74A6133D9FDE6D560D3439AE9 /* HYFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYFoundation-prefix.pch"; sourceTree = "<group>"; };
+		6500810ED4C368FEE1C72A0951745932 /* NSAttributedString+HYItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+HYItem.m"; path = "HYFoundation/Classes/NSAttributedString+HYItem.m"; sourceTree = "<group>"; };
+		667C7DAB0ADFA2792B4640874D33FF39 /* NSString+HYEmoji.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HYEmoji.m"; path = "HYFoundation/Classes/NSString+HYEmoji.m"; sourceTree = "<group>"; };
+		6B7D47944CDAF0EBFEC516258C3DA360 /* HYFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYFoundation.xcconfig; sourceTree = "<group>"; };
+		6D567C2CAED55309D9F4E52CC3E2D495 /* HYUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYUIKit-dummy.m"; sourceTree = "<group>"; };
+		6DA4803E0D4DDD026A4E5FB64A83AC2F /* HYFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYFoundation.h; path = HYFoundation/Classes/HYFoundation.h; sourceTree = "<group>"; };
+		72F506D540F91CFDF9879B4737E70FA7 /* NSAttributedString+HYItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+HYItem.h"; path = "HYFoundation/Classes/NSAttributedString+HYItem.h"; sourceTree = "<group>"; };
+		746EA9C3BF259ED258ED4114D1896CEA /* Pods-QRCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QRCode.debug.xcconfig"; sourceTree = "<group>"; };
+		754CCAF4C32417FA58A3A25FCC9DBAB5 /* UIBarButtonItem+Badge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+Badge.m"; path = "Pod/Classes/UIBarButtonItem+Badge.m"; sourceTree = "<group>"; };
+		7647CBEC9DAEBCF479F367A96BFA5174 /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "Pod/Classes/UIView+Toast.h"; sourceTree = "<group>"; };
+		7B654305E33862040CFBDF6E29412AC8 /* UIView+HYFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+HYFrame.h"; path = "Pod/Classes/UIView+HYFrame.h"; sourceTree = "<group>"; };
+		806CFCDF5B8815B540F43E83FB8FFF5C /* UITextField+HYLeftView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+HYLeftView.h"; path = "Pod/Classes/UITextField+HYLeftView.h"; sourceTree = "<group>"; };
+		817940D12D3A42949BE249EFF57B4AC0 /* UIView+HYFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+HYFrame.m"; path = "Pod/Classes/UIView+HYFrame.m"; sourceTree = "<group>"; };
+		837887D59A5CBEB5B2D56A4060518F3E /* NSObject+HYJSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+HYJSON.m"; path = "HYFoundation/Classes/NSObject+HYJSON.m"; sourceTree = "<group>"; };
+		8F7DEFB9905D27434DD939F99A896A41 /* NSArray+HYNumberString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+HYNumberString.h"; path = "HYFoundation/Classes/NSArray+HYNumberString.h"; sourceTree = "<group>"; };
+		934D4E5ED1926B69A90C1FFD51A214C5 /* UIColor+HYRGB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+HYRGB.h"; path = "Pod/Classes/UIColor+HYRGB.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AFCB7D0F5A6E1D2D82902828E55EDBF /* UITableView+HYCellRegister.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+HYCellRegister.h"; path = "Pod/Classes/UITableView+HYCellRegister.h"; sourceTree = "<group>"; };
+		9C9750811B5F77540CCC20BC89BB0D84 /* NSDictionary+HYURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+HYURL.m"; path = "HYFoundation/Classes/NSDictionary+HYURL.m"; sourceTree = "<group>"; };
+		A6027A2808C1D602EC5E24F5E734FEA1 /* libHYFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHYFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A64E6DE8B5716C81B40B40B7BB139A /* UINavigationBar+HY.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+HY.m"; path = "Pod/Classes/UINavigationBar+HY.m"; sourceTree = "<group>"; };
+		A9FA2457B5E2E5F6ADD2996025B0908A /* Pods-QRCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QRCode-dummy.m"; sourceTree = "<group>"; };
+		AD9F0A2884D080AA9F1961762EE0AB20 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+Placeholder.h"; path = "Pod/Classes/UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		B0B3C082371E4A9E2C92D90C51B3CFEB /* UIAlertView+HYBlocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+HYBlocks.m"; path = "Pod/Classes/UIAlertView+HYBlocks.m"; sourceTree = "<group>"; };
+		B1DB8E366EF49FBBF024EB57685B8110 /* UITextField+HYBlocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+HYBlocks.m"; path = "Pod/Classes/UITextField+HYBlocks.m"; sourceTree = "<group>"; };
+		B6EABAC65353D7B298D0B05BDDBCEB42 /* HYFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYFoundation-dummy.m"; sourceTree = "<group>"; };
+		C8FA0DFE6DF11CC1E19EB59940FC0EBE /* UIImage+HYCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+HYCategory.m"; path = "Pod/Classes/UIImage+HYCategory.m"; sourceTree = "<group>"; };
+		CD548F5B3C078F64C1CADF6B101A05CF /* NSObject+HYPropertyKeys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+HYPropertyKeys.m"; path = "HYFoundation/Classes/NSObject+HYPropertyKeys.m"; sourceTree = "<group>"; };
+		CEA6AF61A43B3AD124B07FC856BF1417 /* Pods-QRCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QRCode.release.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D60AD85A9147FF54F6EE616B5E414CDC /* NSString+HYExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HYExtensions.m"; path = "HYFoundation/Classes/NSString+HYExtensions.m"; sourceTree = "<group>"; };
+		D8E6ABD555784730A7575552B72D2024 /* UIBarButtonItem+Badge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+Badge.h"; path = "Pod/Classes/UIBarButtonItem+Badge.h"; sourceTree = "<group>"; };
+		E0FFF63A9704EF0ED8466865F5B4F192 /* HYUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYUIKit-prefix.pch"; sourceTree = "<group>"; };
+		E23EF2872A54BAF8815719472F2A84E5 /* UITextField+HYBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+HYBlocks.h"; path = "Pod/Classes/UITextField+HYBlocks.h"; sourceTree = "<group>"; };
+		E2620EBDF75B3FAD25942EBB44B072DE /* UITextView+Placeholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Placeholder.m"; path = "Pod/Classes/UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		E5C341F24725967680F334693DCE8CC0 /* UITableView+HYCellRegister.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+HYCellRegister.m"; path = "Pod/Classes/UITableView+HYCellRegister.m"; sourceTree = "<group>"; };
+		E6AB792D995519A38BBBA706708FE346 /* UIControl+HY.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+HY.h"; path = "Pod/Classes/UIControl+HY.h"; sourceTree = "<group>"; };
+		E98440192E148B730086407AF863D62E /* NSObject+HYJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+HYJSON.h"; path = "HYFoundation/Classes/NSObject+HYJSON.h"; sourceTree = "<group>"; };
+		EE3176BBE2CA31368C88A278EEC98E5A /* UINavigationBar+HY.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+HY.h"; path = "Pod/Classes/UINavigationBar+HY.h"; sourceTree = "<group>"; };
+		F3B52800D30914DAEC465F568BEC6394 /* UICollectionView+HYCellRegister.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+HYCellRegister.m"; path = "Pod/Classes/UICollectionView+HYCellRegister.m"; sourceTree = "<group>"; };
+		FA0E8D23FA018949B1158BBF7E61BDA2 /* UIImage+HYCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+HYCategory.h"; path = "Pod/Classes/UIImage+HYCategory.h"; sourceTree = "<group>"; };
+		FB0784D22DE52326EF5953C62CC177D7 /* Pods-QRCode-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QRCode-frameworks.sh"; sourceTree = "<group>"; };
+		FD946B1FF07ABA721499E515D9799A76 /* UIAlertView+HYBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+HYBlocks.h"; path = "Pod/Classes/UIAlertView+HYBlocks.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53CFA44B06664F35187E72B364C77792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0934B7C9242260F313825121DC67F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0AB181AA469D8F8B09DCCA520C7665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E71F079DE3063A52541EC855665533 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D3FCB266885DEC53FF6FBEA545B1AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB1B6E2891FF15FA6D72E41351F7349 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37EFD58022919A666FE0C1FFD632307E /* HYFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				6DA4803E0D4DDD026A4E5FB64A83AC2F /* HYFoundation.h */,
+				8F7DEFB9905D27434DD939F99A896A41 /* NSArray+HYNumberString.h */,
+				18678424D7D782C9626C06C01DA20132 /* NSArray+HYNumberString.m */,
+				72F506D540F91CFDF9879B4737E70FA7 /* NSAttributedString+HYItem.h */,
+				6500810ED4C368FEE1C72A0951745932 /* NSAttributedString+HYItem.m */,
+				4A5CE7EBCF51B8A1E82CD83C58A0C49A /* NSDictionary+HYURL.h */,
+				9C9750811B5F77540CCC20BC89BB0D84 /* NSDictionary+HYURL.m */,
+				E98440192E148B730086407AF863D62E /* NSObject+HYJSON.h */,
+				837887D59A5CBEB5B2D56A4060518F3E /* NSObject+HYJSON.m */,
+				51B721CB7B161A30FC1A3802E6755FA2 /* NSObject+HYPropertyKeys.h */,
+				CD548F5B3C078F64C1CADF6B101A05CF /* NSObject+HYPropertyKeys.m */,
+				28F266D76C786AE842AC61007BD68F37 /* NSString+HYEmoji.h */,
+				667C7DAB0ADFA2792B4640874D33FF39 /* NSString+HYEmoji.m */,
+				3A8C67ED170188207D79AD1562EC3652 /* NSString+HYExtensions.h */,
+				D60AD85A9147FF54F6EE616B5E414CDC /* NSString+HYExtensions.m */,
+				67C6D355949E1CB59F3E564ADDA340D6 /* Support Files */,
+			);
+			path = HYFoundation;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		67C6D355949E1CB59F3E564ADDA340D6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B7D47944CDAF0EBFEC516258C3DA360 /* HYFoundation.xcconfig */,
+				B6EABAC65353D7B298D0B05BDDBCEB42 /* HYFoundation-dummy.m */,
+				6318FEB74A6133D9FDE6D560D3439AE9 /* HYFoundation-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HYFoundation";
+			sourceTree = "<group>";
+		};
+		70ADEAE3021162F52AE865AE4531D0CD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE536EA54716A704A94DF316280C5690 /* Pods-QRCode */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F7D7901CD523AB219DD56CE1573606F7 /* Pods */,
+				999F2F265EDFB7170556684C94ABD9BB /* Products */,
+				70ADEAE3021162F52AE865AE4531D0CD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8C42E6749AC5ADAAC5D4C18F2619AFF4 /* HYUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				3ACBE290926B561E70461DEEC62A2DE3 /* HYUIKit.h */,
+				FD946B1FF07ABA721499E515D9799A76 /* UIAlertView+HYBlocks.h */,
+				B0B3C082371E4A9E2C92D90C51B3CFEB /* UIAlertView+HYBlocks.m */,
+				D8E6ABD555784730A7575552B72D2024 /* UIBarButtonItem+Badge.h */,
+				754CCAF4C32417FA58A3A25FCC9DBAB5 /* UIBarButtonItem+Badge.m */,
+				3CFA866B8569C2DB80FCE6A32A3F3DF2 /* UIButton+HYCategory.h */,
+				47B5700D214B3DAFCF406AB83225BA7B /* UIButton+HYCategory.m */,
+				0B541C9F2A1E11F413485ED640DAA5A7 /* UICollectionView+HYCellRegister.h */,
+				F3B52800D30914DAEC465F568BEC6394 /* UICollectionView+HYCellRegister.m */,
+				934D4E5ED1926B69A90C1FFD51A214C5 /* UIColor+HYRGB.h */,
+				12177EA3B0310150B711A6A8DA786BE7 /* UIColor+HYRGB.m */,
+				E6AB792D995519A38BBBA706708FE346 /* UIControl+HY.h */,
+				1CA7993B3BA94A41101176733C060405 /* UIControl+HY.m */,
+				FA0E8D23FA018949B1158BBF7E61BDA2 /* UIImage+HYCategory.h */,
+				C8FA0DFE6DF11CC1E19EB59940FC0EBE /* UIImage+HYCategory.m */,
+				EE3176BBE2CA31368C88A278EEC98E5A /* UINavigationBar+HY.h */,
+				A7A64E6DE8B5716C81B40B40B7BB139A /* UINavigationBar+HY.m */,
+				9AFCB7D0F5A6E1D2D82902828E55EDBF /* UITableView+HYCellRegister.h */,
+				E5C341F24725967680F334693DCE8CC0 /* UITableView+HYCellRegister.m */,
+				E23EF2872A54BAF8815719472F2A84E5 /* UITextField+HYBlocks.h */,
+				B1DB8E366EF49FBBF024EB57685B8110 /* UITextField+HYBlocks.m */,
+				806CFCDF5B8815B540F43E83FB8FFF5C /* UITextField+HYLeftView.h */,
+				175E4A8DA20BA0198B12001EF6DAAFA1 /* UITextField+HYLeftView.m */,
+				AD9F0A2884D080AA9F1961762EE0AB20 /* UITextView+Placeholder.h */,
+				E2620EBDF75B3FAD25942EBB44B072DE /* UITextView+Placeholder.m */,
+				7B654305E33862040CFBDF6E29412AC8 /* UIView+HYFrame.h */,
+				817940D12D3A42949BE249EFF57B4AC0 /* UIView+HYFrame.m */,
+				2568B3E6EDA8013E7567B94D7581CED7 /* UIView+HYStyle.h */,
+				467B735B7C22A48F06159ABB9ADDE564 /* UIView+HYStyle.m */,
+				7647CBEC9DAEBCF479F367A96BFA5174 /* UIView+Toast.h */,
+				4A888DB8FE30721162E0973C4DD22A46 /* UIView+Toast.m */,
+				4C0CCC979D110C91D467BF697078CC03 /* UIViewController+HYTextFieldEvent.h */,
+				2A3EDB46F58BD46EDE2FBEFE99B61BD4 /* UIViewController+HYTextFieldEvent.m */,
+				98F73481F9D724596E5258C1CA1C5C32 /* Support Files */,
+			);
+			path = HYUIKit;
+			sourceTree = "<group>";
+		};
+		98F73481F9D724596E5258C1CA1C5C32 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A6B0F48572A857C433DA1DA9A6B2F8F /* HYUIKit.xcconfig */,
+				6D567C2CAED55309D9F4E52CC3E2D495 /* HYUIKit-dummy.m */,
+				E0FFF63A9704EF0ED8466865F5B4F192 /* HYUIKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HYUIKit";
+			sourceTree = "<group>";
+		};
+		999F2F265EDFB7170556684C94ABD9BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6027A2808C1D602EC5E24F5E734FEA1 /* libHYFoundation.a */,
+				27C71F038FE45B005023415545D0ED94 /* libHYUIKit.a */,
+				1133E1BA9C3A7E4530C6F11FCFA042EC /* libPods-QRCode.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE536EA54716A704A94DF316280C5690 /* Pods-QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				187ACEE469ABF789DC6F89FCAD97FAB3 /* Pods-QRCode-acknowledgements.markdown */,
+				2200DE16EAC6B8616CC529DDF12A8516 /* Pods-QRCode-acknowledgements.plist */,
+				A9FA2457B5E2E5F6ADD2996025B0908A /* Pods-QRCode-dummy.m */,
+				FB0784D22DE52326EF5953C62CC177D7 /* Pods-QRCode-frameworks.sh */,
+				3C577065F96B2B683FA67C6D7C8FD237 /* Pods-QRCode-resources.sh */,
+				746EA9C3BF259ED258ED4114D1896CEA /* Pods-QRCode.debug.xcconfig */,
+				CEA6AF61A43B3AD124B07FC856BF1417 /* Pods-QRCode.release.xcconfig */,
+			);
+			name = "Pods-QRCode";
+			path = "Target Support Files/Pods-QRCode";
+			sourceTree = "<group>";
+		};
+		F7D7901CD523AB219DD56CE1573606F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37EFD58022919A666FE0C1FFD632307E /* HYFoundation */,
+				8C42E6749AC5ADAAC5D4C18F2619AFF4 /* HYUIKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		70742DD399B967D91822370BEAB71C49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F97C747C44772E0FCE2C781D41B920 /* HYFoundation.h in Headers */,
+				986F3CFBEA05BB6BD1FC94C6289C257A /* NSArray+HYNumberString.h in Headers */,
+				0721CCC3DA83245F848E9A219A04C701 /* NSAttributedString+HYItem.h in Headers */,
+				49FFC1EEABC3B4B38AFAD6A986C7D712 /* NSDictionary+HYURL.h in Headers */,
+				8F26633693EB390692ED2DFAF1D6D51C /* NSObject+HYJSON.h in Headers */,
+				83BC723271E77AA14BD3C3FA877671CA /* NSObject+HYPropertyKeys.h in Headers */,
+				BE52EA3178B341628A4C8B29117F11DE /* NSString+HYEmoji.h in Headers */,
+				3E2C565B4899F39C4743D9CF95096565 /* NSString+HYExtensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2229B98D3DD59CD31AEBFB9DCC89379 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312A5783CD7A45AC8D3DB19CB95C9C22 /* HYUIKit.h in Headers */,
+				91E0178F80169478E286314E331EB306 /* UIAlertView+HYBlocks.h in Headers */,
+				55564F906B3ED4B76028EE710B5E4EEB /* UIBarButtonItem+Badge.h in Headers */,
+				905D9AC84FFC23BD0A244129837EEA90 /* UIButton+HYCategory.h in Headers */,
+				C86640D221FADBD9D0944778441E4274 /* UICollectionView+HYCellRegister.h in Headers */,
+				A056B7F3BDF74979F8D8889D4941012B /* UIColor+HYRGB.h in Headers */,
+				9935C802C69A6144A3DBEE9516DF73E0 /* UIControl+HY.h in Headers */,
+				C62A3298F657E624D57FC2EB83FA819D /* UIImage+HYCategory.h in Headers */,
+				50E84C5E86A7DD353E9567149951B212 /* UINavigationBar+HY.h in Headers */,
+				8F57E3C291D9992AE12159AE4EFFC58F /* UITableView+HYCellRegister.h in Headers */,
+				AC85E3BC5538FC62991F0D51635B1824 /* UITextField+HYBlocks.h in Headers */,
+				A0177E5D62D0D1C22A8857B9E8DE7B68 /* UITextField+HYLeftView.h in Headers */,
+				12A7879473C634B08F6C55EBF7834BA3 /* UITextView+Placeholder.h in Headers */,
+				2FB97A331F245650D319365F632F7052 /* UIView+HYFrame.h in Headers */,
+				075DD7EB120268E469A0C91B845F2091 /* UIView+HYStyle.h in Headers */,
+				6AA9E2871DE43B606D4BBF0426C8952E /* UIView+Toast.h in Headers */,
+				1F061FFC9012DC1C8415297A9A04CBD1 /* UIViewController+HYTextFieldEvent.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		25173134254327E662B00BFD96162056 /* HYFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D662AAA587A0F6BCB18A4D8892344B88 /* Build configuration list for PBXNativeTarget "HYFoundation" */;
+			buildPhases = (
+				3048E0FFD2D53654C70B202DD8C5CFFE /* Sources */,
+				53CFA44B06664F35187E72B364C77792 /* Frameworks */,
+				70742DD399B967D91822370BEAB71C49 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYFoundation;
+			productName = HYFoundation;
+			productReference = A6027A2808C1D602EC5E24F5E734FEA1 /* libHYFoundation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5E0B312DAFDC2627993374E1C45C3266 /* HYUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2C5EBECEC11E5F9F5D8B56C69E7B25A /* Build configuration list for PBXNativeTarget "HYUIKit" */;
+			buildPhases = (
+				7CEF70FCAD28ABE68729AE41C76873D1 /* Sources */,
+				8A0AB181AA469D8F8B09DCCA520C7665 /* Frameworks */,
+				C2229B98D3DD59CD31AEBFB9DCC89379 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYUIKit;
+			productName = HYUIKit;
+			productReference = 27C71F038FE45B005023415545D0ED94 /* libHYUIKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B8DBAF0916437279499C7BADFCBA4471 /* Pods-QRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E1EE8A5211A849C6352AB5016780751 /* Build configuration list for PBXNativeTarget "Pods-QRCode" */;
+			buildPhases = (
+				CE5B00E7A02EBD17CAA0ED38D395A416 /* Sources */,
+				B0D3FCB266885DEC53FF6FBEA545B1AC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8AA11D5523928C636E77EEA7B304614 /* PBXTargetDependency */,
+				5B5C996189FDF10779433E28E3456495 /* PBXTargetDependency */,
+			);
+			name = "Pods-QRCode";
+			productName = "Pods-QRCode";
+			productReference = 1133E1BA9C3A7E4530C6F11FCFA042EC /* libPods-QRCode.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 999F2F265EDFB7170556684C94ABD9BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25173134254327E662B00BFD96162056 /* HYFoundation */,
+				5E0B312DAFDC2627993374E1C45C3266 /* HYUIKit */,
+				B8DBAF0916437279499C7BADFCBA4471 /* Pods-QRCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3048E0FFD2D53654C70B202DD8C5CFFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80AA5E0FC1F80A4618C41FCAD219F26 /* HYFoundation-dummy.m in Sources */,
+				45433780834F2B3D8819A8B303FAA52C /* NSArray+HYNumberString.m in Sources */,
+				9B9249B88487F7CFA67498A63414D240 /* NSAttributedString+HYItem.m in Sources */,
+				2C669C3974F7535DBB737A4781ECC476 /* NSDictionary+HYURL.m in Sources */,
+				1A443BD6FC3897004F7CD38D5B674856 /* NSObject+HYJSON.m in Sources */,
+				2FE977CC2277D5951A82C2D97B7032BA /* NSObject+HYPropertyKeys.m in Sources */,
+				8E97481C80FDE1D75FB155F083B8A607 /* NSString+HYEmoji.m in Sources */,
+				89C34FF349984C1247B9FDDA66A0B5FA /* NSString+HYExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEF70FCAD28ABE68729AE41C76873D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304E7D05B8946ADD2E6D91066BBFC252 /* HYUIKit-dummy.m in Sources */,
+				001F16FD2A1CAAE8E6E19AB2F938F258 /* UIAlertView+HYBlocks.m in Sources */,
+				E65A96D0F14C713A3B53A87DD1CA1C57 /* UIBarButtonItem+Badge.m in Sources */,
+				FE1BD32F2A47538048F1CE28FCCAF2CF /* UIButton+HYCategory.m in Sources */,
+				94EBEFC8857AA98CE3D2DB7B43A4FFD0 /* UICollectionView+HYCellRegister.m in Sources */,
+				31F46A1A09CC8EA6A45DA812A756975D /* UIColor+HYRGB.m in Sources */,
+				CFD9475BBEEFEC1BA4786C5656C7F2B8 /* UIControl+HY.m in Sources */,
+				4AF7BD77A4E8BE8F76BB3A24CCC34773 /* UIImage+HYCategory.m in Sources */,
+				72379EE6001E8909970E9182D8046073 /* UINavigationBar+HY.m in Sources */,
+				33298E71953BAFE8B7CAD1BB9C56D796 /* UITableView+HYCellRegister.m in Sources */,
+				BD549FB9F670EFAD946E149CF38DBBF5 /* UITextField+HYBlocks.m in Sources */,
+				146C95B11BB0411E87A7456B18582B1B /* UITextField+HYLeftView.m in Sources */,
+				2A902851052F9E9C832E065D0259828C /* UITextView+Placeholder.m in Sources */,
+				25A5A49E97C1E44E6CF3C7A5EE0A5B34 /* UIView+HYFrame.m in Sources */,
+				15E73E7A824F88BBBFA68E7E9815EB53 /* UIView+HYStyle.m in Sources */,
+				006490AE04E6131F331A41C9CC7B67D3 /* UIView+Toast.m in Sources */,
+				9C20376B961AEB8B67D8E02803D934F7 /* UIViewController+HYTextFieldEvent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5B00E7A02EBD17CAA0ED38D395A416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB1FB933A3AB791DF04A17882C73E8B /* Pods-QRCode-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B5C996189FDF10779433E28E3456495 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HYUIKit;
+			target = 5E0B312DAFDC2627993374E1C45C3266 /* HYUIKit */;
+			targetProxy = E1687FF7DB2D2E710692EC94A30306B0 /* PBXContainerItemProxy */;
+		};
+		D8AA11D5523928C636E77EEA7B304614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HYFoundation;
+			target = 25173134254327E662B00BFD96162056 /* HYFoundation */;
+			targetProxy = 0984C38CB2099C4E4B82523DDBD87FDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1925B506917D9D9990C8E453E7B2CD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A6B0F48572A857C433DA1DA9A6B2F8F /* HYUIKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HYUIKit/HYUIKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		45201C57A3FA9CF422F60A81DE9D16FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 746EA9C3BF259ED258ED4114D1896CEA /* Pods-QRCode.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		64B24E069298360F7329417A5A5107C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B7D47944CDAF0EBFEC516258C3DA360 /* HYFoundation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HYFoundation/HYFoundation-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6FBF6F8A2AC58B7AEBE6BDFFF21A6B87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A6B0F48572A857C433DA1DA9A6B2F8F /* HYUIKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HYUIKit/HYUIKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D1918CA2A3D5AD95F726B1EAD8D71FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEA6AF61A43B3AD124B07FC856BF1417 /* Pods-QRCode.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D1DF5D16D790F11CEA13F239461602C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E3DD9AFF912F044B70496A7E0C9DF4DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B7D47944CDAF0EBFEC516258C3DA360 /* HYFoundation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HYFoundation/HYFoundation-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F9248D5D3503D3DE930856DB328D8ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1DF5D16D790F11CEA13F239461602C5 /* Debug */,
+				F9248D5D3503D3DE930856DB328D8ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E1EE8A5211A849C6352AB5016780751 /* Build configuration list for PBXNativeTarget "Pods-QRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45201C57A3FA9CF422F60A81DE9D16FE /* Debug */,
+				D1918CA2A3D5AD95F726B1EAD8D71FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2C5EBECEC11E5F9F5D8B56C69E7B25A /* Build configuration list for PBXNativeTarget "HYUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1925B506917D9D9990C8E453E7B2CD62 /* Debug */,
+				6FBF6F8A2AC58B7AEBE6BDFFF21A6B87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D662AAA587A0F6BCB18A4D8892344B88 /* Build configuration list for PBXNativeTarget "HYFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B24E069298360F7329417A5A5107C4 /* Debug */,
+				E3DD9AFF912F044B70496A7E0C9DF4DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

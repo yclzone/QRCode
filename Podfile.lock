@@ -1,0 +1,15 @@
+PODS:
+  - HYFoundation (0.5.2)
+  - HYUIKit (0.5.3)
+
+DEPENDENCIES:
+  - HYFoundation
+  - HYUIKit
+
+SPEC CHECKSUMS:
+  HYFoundation: bc8e6d2eb4d1210169d88479c7bd5be4ab2cdf6c
+  HYUIKit: 9a2d3d6049080740be91c8e858a3fcd93da62410
+
+PODFILE CHECKSUM: 05fa5ed5e8dc276800e0a83bf60cc5178d414e0f
+
+COCOAPODS: 1.1.0.beta.1
